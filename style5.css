@@ -1,0 +1,8 @@
+.left-section {
+    width: 30%;
+    float: left;
+    padding: 20px;
+    background-color: #f2f2f2;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+ }
