@@ -26,7 +26,7 @@ body{
 .form-box h1{
     font-size: 30px;
     margin-bottom: 60px;
-    color: lightblue;
+    color: #2b5360;
     position: relative;
 }
 
@@ -86,7 +86,7 @@ form p a{
 
 .btn-field button{
     flex-basis: 48%;
-    background: lightblue;
+    background: #2b5360;
     color: #fff;
     height: 40px;
     border-radius: 20px;
@@ -102,6 +102,6 @@ form p a{
 
 .btn-field button.disable{
     background: rgb(237, 237, 237);
-    color: lightblue;
+    color: #2b5360;
 }
 
