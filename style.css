@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: grey;
+}
+
+.form-box{
+    width: 90%;
+    max-width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #fff;
+    padding: 50px 60px 70px;
+    text-align: center;
+    border-radius: 25px;
+    border: 5px solid lightblue;
+}
+
+.form-box h1{
+    font-size: 30px;
+    margin-bottom: 60px;
+    color: lightblue;
+    position: relative;
+}
+
+.form-box h1::after{
+    content: '';
+    width: 60px;
+    height: 4px;
+    border-radius: 3px;
+    background: lightblue;
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.input-field{
+    background: rgb(237, 237, 237);
+    margin: 15px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    max-height: 65px;
+    transition: max-height 0.5s;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+input{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 18px 15px;
+}
+
+.input-field i{
+    margin-left: 15px;
+    color: lightblue;
+}
+
+form p{
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+form p a{
+    text-decoration: none;
+    color: lightblue;
+}
+
+.btn-field{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-field button{
+    flex-basis: 48%;
+    background: lightblue;
+    color: #fff;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 1s;
+}
+
+.input-group{
+    height: 280px;
+}
+
+.btn-field button.disable{
+    background: rgb(237, 237, 237);
+    color: lightblue;
+}
+
